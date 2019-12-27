@@ -49,8 +49,9 @@ public abstract class Product  {
 
     private String image;
 
+    Product(){
 
-
+    }
 
     Product(String name, double price, UUID identifier, int stock, String iamge){
         this.name = name;

@@ -17,6 +17,12 @@ public class Store {
     }
 
 
+    // search product
+    Product searchProduct(String name){
+        // recherche un fichier avec le nom du fichier
+        return  nil;
+    }
+
     void addProduct(Product p){
         this.productList.add(p);
     }

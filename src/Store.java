@@ -16,12 +16,28 @@ public class Store {
         this.categories = categories;
     }
 
-
+/*
     // search product
     Product searchProduct(String name){
         // recherche un fichier avec le nom du fichier
         return  nil;
     }
+
+    Client searchClient(){
+
+    }
+
+
+    // afficher dans la zone transaction le nom du client
+
+
+    //////////// ADD //////////////////////////
+
+    // Function implement to add a new client
+    boolean addNewClient(Client c){
+    }
+
+*/
 
     void addProduct(Product p){
         this.productList.add(p);

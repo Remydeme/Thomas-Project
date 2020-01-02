@@ -7,7 +7,8 @@ public class Book {
     Book(){
     }
 
-    Book(String author, int pages, Language language){
+    Book(String author, int pages, Language language) {
+        super();
         this.author = author;
         this.language = language;
         this.pages = pages;

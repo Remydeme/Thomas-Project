@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product>
+        <type>book</type>
+        <name>Savon</name>
+        <price>2</price>
+        <identifiant>3456789</identifiant>
+        <stock>100</stock>
+
+    </product>
+    <product>
+        <type>book</type>
+        <name>Hello</name>
+        <price>45</price>
+        <identifiant>3456789</identifiant>
+        <stock>100</stock>
+    </product>
+</products>

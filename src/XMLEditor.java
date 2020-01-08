@@ -16,6 +16,12 @@ public class XMLEditor {
         UUID identifier = UUID.fromString(eElement.getElementsByTagName("identifier").item(0).getTextContent());
         int stock = Integer.parseInt(eElement.getElementsByTagName("stock").item(0).getTextContent());
         Type type = Type.valueOf(eElement.getElementsByTagName("type").item(0).getTextContent());
+        NodeList actors = eElement.getElementsByTagName("actors");
+        List<String> actorsList =
+        for (int i = 0; i < actors.getLength(); i++){
+            Node actor = actors.item(i);
+
+        }
         DVD dvd = new DVD();
         return dvd;
     }
@@ -30,7 +36,7 @@ public class XMLEditor {
         String author = eElement.getElementsByTagName("author").item(0).getTextContent();
         String page = eElement.getElementsByTagName("page").item(0).getTextContent();
         String language = eElement.getElementsByTagName("language").item(0).getTextContent();
-        Book book = new Book()
+        Book book = new Book();
         return book;
     }
 
@@ -72,11 +78,13 @@ public class XMLEditor {
                     switch (eElement.getElementsByTagName("type").item(0).getTextContent()) {
 
                         case "book":
-
+                            Book b = parseBook(eElement);
                             break;
                         case "dvd":
+                            DVD d = parseDVD(eElement);
                             break;
                         case "game":
+                            Game g = parseGame(eElement);
                             break;
                         default:
 

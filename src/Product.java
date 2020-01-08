@@ -8,6 +8,7 @@ public abstract class Product  {
     private int stock;
     private Type type;
 
+
     public String getName() {
         return name;
     }

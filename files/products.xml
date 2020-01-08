@@ -9,10 +9,17 @@
 
     </product>
     <product>
-        <type>book</type>
+        <type>dvd</type>
         <name>Hello</name>
         <price>45</price>
         <identifiant>3456789</identifiant>
         <stock>100</stock>
+        <actors>
+            <name>polo</name>
+            <name>pablo</name>
+            <name>popo</name>
+            <name>poro</name>
+            <name>pano</name>
+        </actors>
     </product>
 </products>

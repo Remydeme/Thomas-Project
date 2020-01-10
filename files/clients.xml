@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+    <client>
+        <firstname>Remy</firstname>
+        <lastname>DEME</lastname>
+        <address>118 boulevard du general leclerc</address>
+        <identifier>e52232e1-0ded-4587-999f-4dd135a4a94f</identifier>
+    </client>
+    <client>
+        <firstname>Remy</firstname>
+        <lastname>DEME</lastname>
+        <address>118 boulevard du general leclerc</address>
+        <identifier>e52232e1-0ded-4587-999f-4dd135a4a94f</identifier>
+    </client>
+    <client>
+        <firstname>Remy</firstname>
+        <lastname>DEME</lastname>
+        <address>118 boulevard du general leclerc</address>
+        <identifier>e52232e1-0ded-4587-999f-4dd135a4a94f</identifier>
+    </client>
+</clients>

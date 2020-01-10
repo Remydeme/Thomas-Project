@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transactions>
+    <transaction>
+        <clientID>Remy</clientID>
+        <productID>DEME</productID>
+        <numProducts>118 boulevard du general leclerc</numProducts>
+        <time>2009-08-01 12:34:01.891</time>
+    </transaction>
+    <transaction>
+        <clientID>Remy</clientID>
+        <productID>DEME</productID>
+        <numProducts>118 boulevard du general leclerc</numProducts>
+        <time>2009-08-01 12:34:01.891</time>
+    </transaction>
+    <transaction>
+        <clientID>Remy</clientID>
+        <productID>DEME</productID>
+        <numProducts>118 boulevard du general leclerc</numProducts>
+        <time>2009-08-01 12:34:01.891</time>
+    </transaction>
+    <transaction>
+        <clientID>Remy</clientID>
+        <productID>DEME</productID>
+        <numProducts>118 boulevard du general leclerc</numProducts>
+        <time>2009-08-01 12:34:01.891</time>
+    </transaction>
+    <transaction>
+        <clientID>Remy</clientID>
+        <productID>DEME</productID>
+        <numProducts>118 boulevard du general leclerc</numProducts>
+        <time>2009-08-01 12:34:01.891</time>
+    </transaction>
+</transactions>

@@ -55,7 +55,7 @@ public abstract class Product  {
 
     }
 
-    Product(String name, double price, UUID identifier, int stock, String iamge){
+    Product(String name, double price, UUID identifier, int stock, String image){
         this.name = name;
         this.price = price;
         this.stock = stock;

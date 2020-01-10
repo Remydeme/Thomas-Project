@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.UUID;
 
 public class DVD extends Product {
 
@@ -35,7 +36,8 @@ public class DVD extends Product {
 
     }
 
-    DVD(List<String> actors, int length, Genre genre){
+    DVD(String name, double price, UUID identifier, int stock, String image, List<String> actors, int length, Genre genre){
+        super(name, price, identifier, stock, image);
         this.actors = actors;
         this.length = length;
         this.genre = genre;

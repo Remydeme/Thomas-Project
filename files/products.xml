@@ -4,16 +4,22 @@
         <type>book</type>
         <name>Savon</name>
         <price>2</price>
-        <identifiant>3456789</identifiant>
+        <identifier>e52232e1-0ded-4587-999f-4dd135a4a94f</identifier>
         <stock>100</stock>
-
+        <image>hello/wolrd/its/working</image>
+        <author>Jermain jackson</author>
+        <page>123</page>
+        <language>French</language>
     </product>
     <product>
         <type>dvd</type>
         <name>Hello</name>
         <price>45</price>
-        <identifiant>3456789</identifiant>
+        <identifier>e52232e1-0ded-4587-999f-4dd135a4a94f</identifier>
         <stock>100</stock>
+        <image>hello/wolrd/its/working</image>
+        <length>120</length>
+        <genre>Romantique</genre>
         <actors>
             <name>polo</name>
             <name>pablo</name>
@@ -21,5 +27,15 @@
             <name>poro</name>
             <name>pano</name>
         </actors>
+    </product>
+    <product>
+        <type>game</type>
+        <name>Savon</name>
+        <price>2</price>
+        <identifier>e52232e1-0ded-4587-999f-4dd135a4a94f</identifier>
+        <stock>100</stock>
+        <image>hello/wolrd/its/working</image>
+        <gameGenre>PP3</gameGenre>
+        <plateforme>PS4</plateforme>
     </product>
 </products>

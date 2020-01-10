@@ -1,21 +1,23 @@
 public enum Genre {
-    comédie("comédie"),
+
+    comedie("comédie"),
     action("action"),
     drame("drame"),
     dessin("dessin"),
-    animé("animé"),
+    anime("animé"),
     famille("famille"),
     fantasy("fantasy"),
     scifi("scifi"),
     horreur("horreur");
-    private String genre = " ";
+
+    public String genre = " ";
 
     Genre (String genre)
     {
-        this.genre =genre;
+        this.genre  = genre;
     }
-    public String toSring(){
 
+    public String toSring(){
         return genre;
     }
 }

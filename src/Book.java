@@ -1,4 +1,6 @@
-public class Book {
+import java.util.UUID;
+
+public class Book extends Product {
     private String author;
     private int pages;
     private Language language;
@@ -7,8 +9,8 @@ public class Book {
     Book(){
     }
 
-    Book(String author, int pages, Language language) {
-        super();
+    Book(String name, double price, UUID identifier, int stock, String image, String author, int pages, Language language) {
+        super(name, price, identifier, stock, image);
         this.author = author;
         this.language = language;
         this.pages = pages;
